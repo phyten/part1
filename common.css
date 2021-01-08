@@ -1,0 +1,60 @@
+/* foundation */
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;             /* 1remはhtmlセレクタにおいてのfont-sizeを表す。16px x 62.5% = 10px */
+}
+
+* {
+  box-sizing: inherit;
+}
+
+.ly_header {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-bottom: 0;
+  padding: 0;
+
+  /* 仮 */
+  height: 100px;
+  background-color: yellow;
+}
+
+.ly_main-visual {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-bottom: 0;
+  padding: 0;
+
+  /* 仮 */
+  height: 200px;
+  background-color: red;
+}
+
+.ly_content {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-bottom: 0;
+  padding: 0;
+
+  /* 仮 */
+  height: 200px;
+}
+
+.ly_content.ly_content--white {
+  background-color: white;
+}
+
+.ly_content.ly_content--beige {
+  background-color: beige;
+}
+
+.ly_footer {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-bottom: 0;
+  padding: 0;
+}
