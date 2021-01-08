@@ -58,3 +58,25 @@ html {
   margin-bottom: 0;
   padding: 0;
 }
+
+.header-up-wrapper {
+  display: flex;
+  justify-content: space-between;
+  /* justify-content: space-around; */
+  /* justify-content: flex-start; */
+  /* justify-content: flex-end; */
+}
+
+.header-logo-wrapper {
+  width: 13%;
+}
+
+.header-reservation-list {
+  list-style: none;
+  /* list-style: circle; */
+}
+
+/* utility */
+.--img-full-width {
+  width: 100% !important;
+}
